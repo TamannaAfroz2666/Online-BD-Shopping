@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topHeader{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(219, 202, 202, 0.815);
+}
+.subTopHeader{
+    width: 90%;
+    margin: auto;
+}
+.subTopHeader .topHeaderContent{
+   display: flex;
+   justify-content: space-between; 
+}
