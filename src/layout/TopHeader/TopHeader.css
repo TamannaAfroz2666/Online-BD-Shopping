@@ -6,13 +6,27 @@
 .topHeader{
     height: 100%;
     width: 100%;
-    background-color: rgba(219, 202, 202, 0.815);
+    background-color: rgb(241, 238, 238);;
 }
 .subTopHeader{
     width: 90%;
     margin: auto;
+   
 }
 .subTopHeader .topHeaderContent{
+    height: 4rem;
    display: flex;
-   justify-content: space-between; 
+   align-items: center;
+   justify-content: space-between;
+}
+.topHeaderContent .phoneInfo a{
+    text-decoration: none;
+}
+.phoneInfo .phoneStatus{
+    font-size: 1.3rem;
+    color: #777;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 600;
 }
