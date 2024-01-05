@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topHeader{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241, 238, 238);;
+}
+.subTopHeader{
+    width: 90%;
+    margin: auto;
+   
+}
+.subTopHeader .topHeaderContent{
+    height: 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.topHeaderContent .phoneInfo a{
+    text-decoration: none;
+}
+.phoneInfo .phoneStatus{
+    font-size: 1.3rem;
+    color: #777;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.contactInfo{
+    display: inline-flex;
+    gap: 20px;
+   
+   
+}
+.contactInfo a{
+    text-decoration: none;
+}
+.groupTitle{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 600;
+    
+}
+.breakPoint{
+    margin-left: 1rem;
+}
