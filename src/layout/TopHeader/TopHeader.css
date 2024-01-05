@@ -32,9 +32,10 @@
 }
 .contactInfo{
     display: inline-flex;
-    gap: 20px;
-   
-   
+    gap: 20px; 
+}
+.phoneIcon{
+    font-size: 20px;
 }
 .contactInfo a{
     text-decoration: none;
@@ -50,6 +51,72 @@
     margin-left: 1rem;
 }
 
-@media screen  {
-    
+@media (max-width:576px)  {
+    .topHeader{
+        height: 100%;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .subTopHeader .topHeaderContent{
+        height: 4rem;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       background-color: aquamarine;
+    }
+    .phoneInfo .phoneStatus{
+        font-size: .8rem;  
+    }
+    .phoneIcon{
+        font-size: 12px;
+    }
+    .groupTitle{
+        font-size: .8rem;  
+    } 
+}
+@media (min-width:577px) and (max-width:768px)  {
+    .topHeader{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(240, 232, 231, 0.37);
+    }
+    .subTopHeader .topHeaderContent{
+        height: 4rem;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       /* background-color: rgba(240, 232, 231, 0.37); */
+    }
+    .phoneInfo .phoneStatus{
+        font-size: 1rem;  
+    }
+    .phoneIcon{
+        font-size: 15px;
+    }
+    .groupTitle{
+        font-size: 1rem;  
+    } 
+}
+@media (min-width:769px) and (max-width:992px)  {
+    .topHeader{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(114, 78, 73, 0.37);
+    }
+    .subTopHeader .topHeaderContent{
+        height: 4rem;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       /* background-color: rgba(240, 232, 231, 0.37); */
+    }
+    .phoneInfo .phoneStatus{
+        font-size: 1rem;  
+    }
+    .phoneIcon{
+        font-size: 16px;
+    }
+    .groupTitle{
+        font-size: 1rem;  
+    } 
 }
