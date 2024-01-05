@@ -30,3 +30,22 @@
     line-height: 1.5;
     font-weight: 600;
 }
+.contactInfo{
+    display: inline-flex;
+    gap: 20px;
+   
+   
+}
+.contactInfo a{
+    text-decoration: none;
+}
+.groupTitle{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 600;
+    
+}
+.breakPoint{
+    margin-left: 1rem;
+}
