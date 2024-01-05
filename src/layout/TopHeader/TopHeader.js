@@ -1,5 +1,6 @@
 import React from 'react';
 import './TopHeader.css';
+// import { AiFillApple } from "react-icons/ai";
 
 const TopHeader = () => {
     return (
@@ -7,7 +8,7 @@ const TopHeader = () => {
             <div className="subTopHeader">
                 <div className="topHeaderContent">
                     <div className="phoneInfo">
-                        <h1>hh</h1>
+                    
 
                     </div>
                     <div className="contactInfo">
