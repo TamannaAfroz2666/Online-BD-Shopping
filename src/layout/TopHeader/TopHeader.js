@@ -24,7 +24,7 @@ const TopHeader = () => {
                                 |
                             </span></p>
                         </a>
-                        <a href="playnow">
+                        <a href="playNow">
                             <p className='groupTitle'>play now </p>
                         </a>
 
