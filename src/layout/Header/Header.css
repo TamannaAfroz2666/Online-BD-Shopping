@@ -18,10 +18,41 @@
     justify-content: space-between;
 
 }
-
+.logo a{
+    text-decoration: none;
+}
 .logoPart .logo img{
     width: 285px;
     overflow: clip;
     height: 100px;
+}
+ .searchBar{
+    width: 600px;
+    height: 4rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.crossBtn{
+    border: 0;
+    background-color: rgba(250, 251, 252, 0.212);
+    right: 2rem;
+    position: relative;
+    /* transform: translate(-2rem, -2ex); */
+    /* visibility: hidden; */
+}
 
+.searchPart{
+    display: flex;
+}
+.btnSearchHeader{
+    width: 80px;
+    height: 68px;
+    background-color: #28a745;
+    border: 0;
+    border-radius: 3px;
+    right: 1.19rem;
+    position: relative;
+    
 }
