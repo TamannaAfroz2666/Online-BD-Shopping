@@ -58,6 +58,7 @@
 }
 .activitiesPart{
     display: flex;
+    gap: 2rem;
 }
 .wishlistItem{
     padding: 2px;
@@ -83,6 +84,25 @@
     font-weight: 600;
     letter-spacing: 1px;
     right: 1rem;
+    position: relative;
+}
+.cartHeaderTitle{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    right: 0rem;
+    position: relative;
+    
+
+}
+.searchField{
+    position: relative;
+}
+.profileHeaderTitle{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    right: 0rem;
     position: relative;
     
 

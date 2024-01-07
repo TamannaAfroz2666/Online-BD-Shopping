@@ -4,6 +4,8 @@ import logo from '../../assets/logo_01_AI_png.png';
 import { LiaSearchSolid } from "react-icons/lia";
 import { RxCross2 } from "react-icons/rx";
 import { FaHeart } from "react-icons/fa";
+import { IoCart } from "react-icons/io5";
+import { BiSolidUserCircle } from "react-icons/bi";
 
 const Header = () => {
     // const [inputClicked, setInputClicked] = useState(false);
@@ -58,18 +60,29 @@ const Header = () => {
                     <div className="activitiesPart">
                         <div className="wishlistHeader">
                             <div className="wishIconSec">
-                           
-                            <FaHeart color='green' size={35} />
-                            <span className='wishlistItem'>10</span>
+                                <FaHeart color='green' size={35} />
+                                <span className='wishlistItem'>0</span>
                             </div>
-                           
                             <p className='wishlistHeaderTitle'>Wishlist</p>
-
                         </div>
                         <div className="cartHeader">
+                        <div className="wishlistHeader">
+                            <div className="wishIconSec">
+                                <IoCart  color='green' size={45} />
+                                <span className='wishlistItem'>0</span>
+                            </div>
+                            <p className='cartHeaderTitle'>Cart</p>
+                        </div>
 
                         </div>
                         <div className="profileHeader">
+                        <div className="wishlistHeader">
+                            <div className="wishIconSec">
+                                <BiSolidUserCircle  color='green' size={45} />
+                                <span className='wishlistItem'>0</span>
+                            </div>
+                            <p className='profileHeaderTitle'>Profile</p>
+                        </div>
 
                         </div>
 
