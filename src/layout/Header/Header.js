@@ -59,33 +59,54 @@ const Header = () => {
                     </form>
                     <div className="activitiesPart">
                         <div className="wishlistHeader">
-                            <div className="wishIconSec">
-                                <FaHeart color='green' size={35} />
-                                <span className='wishlistItem'>0</span>
-                            </div>
-                            <p className='wishlistHeaderTitle'>Wishlist</p>
+                            <a href="/wishlist">
+                                <div className="wishIconSec">
+                                    <FaHeart color='green' size={40} />
+                                    <span className='wishlistItem'>0</span>
+                                </div>
+                                <p className='wishlistHeaderTitle'>Wishlist</p>
+                            </a>
                         </div>
                         <div className="cartHeader">
-                        <div className="wishlistHeader">
-                            <div className="wishIconSec">
-                                <IoCart  color='green' size={45} />
-                                <span className='wishlistItem'>0</span>
-                            </div>
-                            <p className='cartHeaderTitle'>Cart</p>
-                        </div>
+                            <a href="/cart">
+                                <div className="wishlistHeader">
+                                    <div className="wishIconSec">
+                                        <IoCart color='green' size={45} />
+                                        <span className='wishlistItem'>0</span>
+                                    </div>
+                                    <p className='cartHeaderTitle'>Cart</p>
+                                </div>
+                            </a>
 
                         </div>
                         <div className="profileHeader">
-                        <div className="wishlistHeader">
-                            <div className="wishIconSec">
-                                <BiSolidUserCircle  color='green' size={45} />
-                                <span className='wishlistItem'>0</span>
+                            {/* <div className="wishlistHeader">
+                                <div className="wishIconSec">
+                                    <BiSolidUserCircle color='green' size={45} />
+                                    <span className='wishlistItem'>0</span>
+                                </div>
+                                <p className='profileHeaderTitle'>Profile</p>
+                            </div> */}
+                            <div class="dropdown">
+                                <div className="wishlistHeader">
+                                    <a href="/profile">
+                                    <div className="wishIconSec">
+                                        <BiSolidUserCircle color='green' size={45} />
+                                        <span className='wishlistItem'>0</span>
+                                    </div>
+                                    <p className='profileHeaderTitle'>Profile</p>
+                                    </a>
+                                </div>
+                                <div class="dropdown-content">
+                                    <a href="/login">
+                                        <p className='loginHeader'>Login</p>
+                                    </a>
+                                    <a href="/register">
+                                        <p className='loginHeader'>Register</p>
+                                    </a>
+                                </div>
                             </div>
-                            <p className='profileHeaderTitle'>Profile</p>
                         </div>
-
-                        </div>
-
                     </div>
                 </div>
 
