@@ -3,17 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-.practice{
-    background-color: aqua;
-    height: 4rem;
+.headerMain{
+  height: 100%;
+  width: 100%;
 }
-.practicehelo{
-    color: orange;
-    font-size: 25px;
+.subHeaderMain{
+    width: 90%;
+    margin: auto;
 }
-@media (min-width:768px) and (max-width:992px) {
-    .practice{
-        background-color: brown;
-    }
-    
+.headerContainer{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logoPart .logo img{
+    width: 285px;
+    overflow: clip;
+    height: 100px;
+
 }
