@@ -5,10 +5,16 @@ import { LiaSearchSolid } from "react-icons/lia";
 import { RxCross2 } from "react-icons/rx";
 
 const Header = () => {
-    const [inputClicked, setInputClicked] = useState(false);
-    const searchHandler = () =>{
+    // const [inputClicked, setInputClicked] = useState(false);
+    const [searchText, setSearchText] = useState('')
+    const searchHandler = (e) =>{
+        setSearchText(e.target.value);
         console.log('hh');
-        setInputClicked(true);
+        // setInputClicked(true);
+    }
+    const clearHandle = () => {
+        setSearchText('')
+
     }
     return (
         <div className='headerMain'>
@@ -29,11 +35,12 @@ const Header = () => {
                                 id='searchBar'
                                 name='search'
                                 placeholder='Search Product...' autoComplete='off'
-                                onClick={searchHandler}
+                                onChange={searchHandler}
+                                value={searchText}
                             />
                             {
-                                inputClicked && (
-                                    <button className='crossBtn'><RxCross2 size={20} /></button>
+                                searchText && (
+                                    <button className='crossBtn' onClick={clearHandle}><RxCross2 size={20} /></button>
 
                                 )
                             }
