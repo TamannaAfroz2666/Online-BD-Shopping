@@ -14,6 +14,7 @@ const Header = () => {
         setSearchText(e.target.value);
         console.log('hh');
         // setInputClicked(true);
+        
     }
     const clearHandle = () => {
         setSearchText('')
