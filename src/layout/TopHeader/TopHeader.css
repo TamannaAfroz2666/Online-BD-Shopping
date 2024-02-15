@@ -24,7 +24,7 @@
     text-decoration: none;
 }
 .phoneInfo .phoneStatus{
-    font-size: 1.3rem;
+    font-size: 14px;
     color: #777;
     letter-spacing: 0px;
     text-transform: uppercase;
@@ -36,13 +36,13 @@
     gap: 20px; 
 }
 .phoneIcon{
-    font-size: 20px;
+    font-size: 16px;
 }
 .contactInfo a{
     text-decoration: none;
 }
 .groupTitle{
-    font-size: 1.3rem;
+    font-size: 14px;
     text-transform: uppercase;
     color: #777;
     font-weight: 600;
