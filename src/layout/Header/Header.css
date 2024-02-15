@@ -22,14 +22,14 @@
     text-decoration: none;
 }
 .logoPart .logo img{
-    width: 285px;
+    width: 200px;
     overflow: clip;
-    height: 100px;
+    height: 60px;
 }
  .searchBar{
     width: 600px;
-    height: 4rem;
-    font-size: 1.5rem;
+    height: 3rem;
+    font-size: 14px;
     padding-left: 1rem;
     border: 1px solid gray;
     border-radius: 5px;
@@ -37,22 +37,25 @@
 .crossBtn{
     border: 0;
     background-color: rgba(250, 251, 252, 0.212);
-    right: 2rem;
+    right: 3rem;
     position: relative;
+    
     /* transform: translate(-2rem, -2ex); */
     /* visibility: hidden; */
 }
+.searchBar:focus{
 
+}
 .searchPart{
     display: flex;
 }
 .btnSearchHeader{
-    width: 80px;
-    height: 68px;
+    width: 48px;
+    height: 48px;
     background-color: #28a745;
     border: 0;
     border-radius: 3px;
-    right: 1.19rem;
+    right: 3rem;
     position: relative;
     
 }
@@ -81,7 +84,7 @@
     
 }
 .wishlistHeaderTitle{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     right: 1rem;
@@ -93,7 +96,7 @@
     text-decoration: none;
 }
 .cartHeaderTitle{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     right: 0rem;
@@ -109,7 +112,7 @@
     position: relative;
 }
 .profileHeaderTitle{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     right: 0rem;

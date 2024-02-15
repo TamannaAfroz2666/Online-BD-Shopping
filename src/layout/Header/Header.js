@@ -44,7 +44,7 @@ const Header = () => {
                                 />
                                 {
                                     searchText && (
-                                        <button className='crossBtn' onClick={clearHandle}><RxCross2 size={20} /></button>
+                                        <button className='crossBtn' onClick={clearHandle}><RxCross2 size={20} color='black' /></button>
 
                                     )
                                 }
@@ -53,7 +53,7 @@ const Header = () => {
 
                             </div>
                             <div className="searchBtn">
-                                <button className='btnSearchHeader'><LiaSearchSolid size={40} color='white' /></button>
+                                <button className='btnSearchHeader'><LiaSearchSolid size={20} color='white' /></button>
                             </div>
                         </div>
                     </form>
@@ -61,7 +61,7 @@ const Header = () => {
                         <div className="wishlistHeader">
                             <a href="/wishlist">
                                 <div className="wishIconSec">
-                                    <FaHeart color='green' size={40} />
+                                    <FaHeart color='green' size={24} />
                                     <span className='wishlistItem'>0</span>
                                 </div>
                                 <p className='wishlistHeaderTitle'>Wishlist</p>
@@ -71,7 +71,7 @@ const Header = () => {
                             <a href="/cart">
                                 <div className="wishlistHeader">
                                     <div className="wishIconSec">
-                                        <IoCart color='green' size={45} />
+                                        <IoCart color='green' size={24} />
                                         <span className='wishlistItem'>0</span>
                                     </div>
                                     <p className='cartHeaderTitle'>Cart</p>
@@ -91,7 +91,7 @@ const Header = () => {
                                 <div className="wishlistHeader">
                                     <a href="/profile">
                                     <div className="wishIconSec">
-                                        <BiSolidUserCircle color='green' size={45} />
+                                        <BiSolidUserCircle color='green' size={24} />
                                         <span className='wishlistItem'>0</span>
                                     </div>
                                     <p className='profileHeaderTitle'>Profile</p>
