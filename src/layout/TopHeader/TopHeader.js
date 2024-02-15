@@ -9,7 +9,7 @@ const TopHeader = () => {
                 <div className="topHeaderContent">
                     <div className="phoneInfo">
                         <a href="tel:01323467590">
-                            <p className='phoneStatus'><FiPhone color='gray' size={20} /> Phone: 01323467590</p>
+                            <p className='phoneStatus'><FiPhone className='phoneIcon' color='gray'  /> Phone: 01323467590</p>
                         </a>
 
                     </div>

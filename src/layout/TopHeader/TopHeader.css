@@ -6,7 +6,8 @@
 .topHeader{
     height: 100%;
     width: 100%;
-    background-color: rgb(241, 238, 238);;
+    background-color: rgb(241, 238, 238);
+    margin: 0 0 2rem 0;
 }
 .subTopHeader{
     width: 90%;
@@ -23,7 +24,7 @@
     text-decoration: none;
 }
 .phoneInfo .phoneStatus{
-    font-size: 1.3rem;
+    font-size: 14px;
     color: #777;
     letter-spacing: 0px;
     text-transform: uppercase;
@@ -32,15 +33,16 @@
 }
 .contactInfo{
     display: inline-flex;
-    gap: 20px;
-   
-   
+    gap: 20px; 
+}
+.phoneIcon{
+    font-size: 16px;
 }
 .contactInfo a{
     text-decoration: none;
 }
 .groupTitle{
-    font-size: 1.3rem;
+    font-size: 14px;
     text-transform: uppercase;
     color: #777;
     font-weight: 600;
@@ -50,6 +52,72 @@
     margin-left: 1rem;
 }
 
-@media screen  {
-    
+@media (max-width:576px)  {
+    .topHeader{
+        height: 100%;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .subTopHeader .topHeaderContent{
+        height: 4rem;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       background-color: aquamarine;
+    }
+    .phoneInfo .phoneStatus{
+        font-size: .8rem;  
+    }
+    .phoneIcon{
+        font-size: 12px;
+    }
+    .groupTitle{
+        font-size: .8rem;  
+    } 
+}
+@media (min-width:577px) and (max-width:768px)  {
+    .topHeader{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(240, 232, 231, 0.37);
+    }
+    .subTopHeader .topHeaderContent{
+        height: 4rem;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       /* background-color: rgba(240, 232, 231, 0.37); */
+    }
+    .phoneInfo .phoneStatus{
+        font-size: 1rem;  
+    }
+    .phoneIcon{
+        font-size: 15px;
+    }
+    .groupTitle{
+        font-size: 1rem;  
+    } 
+}
+@media (min-width:769px) and (max-width:992px)  {
+    .topHeader{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(114, 78, 73, 0.37);
+    }
+    .subTopHeader .topHeaderContent{
+        height: 4rem;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       /* background-color: rgba(240, 232, 231, 0.37); */
+    }
+    .phoneInfo .phoneStatus{
+        font-size: 1rem;  
+    }
+    .phoneIcon{
+        font-size: 16px;
+    }
+    .groupTitle{
+        font-size: 1rem;  
+    } 
 }
